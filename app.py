@@ -199,7 +199,7 @@ def predict(
             )
         if len(prompt) > 20000:
             gr.Warning(
-                "Text length limited to 200 characters for this demo, please try shorter text. You can clone this space and edit code for your own usage"
+                "Text length limited to 20,0000 characters for this demo, please try shorter text. You can clone this space and edit code for your own usage"
             )
             return (
                 None,
